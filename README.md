@@ -11,7 +11,7 @@
 
 ### GLH-Water-1000 dataset
 **Introduction:** This dataset is an optical remote sensing image water segmentation dataset that we create based on the GLH-water dataset. The samples cover multiple regions around the world, with diverse scene types (forests, farmlands, bare land, cities, etc.) and rich water forms (rivers, lakes, small ponds, irrigation water bodies, etc.). The original dataset contains a total of 250 ultra-large images with a ground resolution of 0.3 m and a single image size of 12,800×12,800 pixels. We first split the training and test sets into a 4:1 ratio. Considering that the actual area covered by a single pixel in the original image is too small, directly cropping with a 1024×1024 sliding window is likely to produce low-information slices that are "all water" or "all non-water". To this end, we downsample the original large image to 2048×2048 pixels and then cropped it with a 1024×1024 sliding window, ultimately obtaining 800 training samples and 200 test samples. Binary labels (water/non-water) are generated based on the original pixel-level masks.  
-**Link:** 
+**Link:** [[Google Drive](https://drive.google.com/file/d/1xuDIU2hyrRU6R-WP2iXHoib_zx70am6O/view?usp=sharing)]
 
 <p align="center">
   <img src="GLH-Water-1000.png" alt="GLH-Water-1000 dataset" width="800"/><br>  
